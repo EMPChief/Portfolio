@@ -40,8 +40,13 @@ class PortfolioApp:
                 button_label = f"Go to source code"
                 st.markdown(f"<div style='text-align: center;'><a href='{project['url']}' target='_blank'>{button_label}</a></div>", unsafe_allow_html=True)
 
+
     def run(self):
         self.set_page_config()
         self.display_welcome_message()
         self.display_about_me()
         self.display_project_list()
+
+if __name__ == "__main__":
+    app = PortfolioApp()
+    app.run()

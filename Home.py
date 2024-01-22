@@ -1,4 +1,4 @@
-from mainpage_class import PortfolioApp
+from utility import PortfolioApp
 
 if __name__ == "__main__":
     app = PortfolioApp()
