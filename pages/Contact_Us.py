@@ -14,7 +14,7 @@ class ContactForm:
         self.smtp_password = "&833NjKXpb7xjPLo"
 
     def send_email(self, name, email, message):
-        subject = "New Contact Form Submission"
+        subject = f"New Contact Form Submission from {name}"
         body = f"Name: {name}\nEmail: {email}\nMessage: {message}"
 
         msg = MIMEMultipart()
