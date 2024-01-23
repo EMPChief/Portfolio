@@ -1,0 +1,10 @@
+import streamlit as st
+import unittest
+
+class ContactUsTest(unittest.TestCase):
+    def test_header(self):
+        with self.assertRaises(Exception):
+            st.header("Contact us!")
+
+if __name__ == '__main__':
+    unittest.main()
