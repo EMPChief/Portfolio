@@ -6,6 +6,8 @@ st.set_page_config(
     page_title="Bjørn-Magne Portfolio",
     page_icon="favicon.ico",
 )
+
+
 class ContactForm:
     def __init__(self):
         self.smtp_server = "smtp.hostinger.com"
@@ -26,7 +28,9 @@ class ContactForm:
         with smtplib.SMTP(self.smtp_server, self.smtp_port) as server:
             server.starttls()
             server.login(self.smtp_username, self.smtp_password)
-            server.sendmail(self.smtp_username, self.smtp_username, msg.as_string())
+            server.sendmail(self.smtp_username,
+                            self.smtp_username, msg.as_string())
+
 
 def main():
     st.header("Contact us!")
@@ -40,6 +44,7 @@ def main():
     if st.button("Submit"):
         contact_form.send_email(name, email, message)
         st.success("Thank you for contacting us!")
+
 
 if __name__ == "__main__":
     main()
