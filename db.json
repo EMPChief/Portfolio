@@ -14,13 +14,13 @@
     {
         "title": "PDF Templates",
         "description": "A script that generates PDF templates of multiple pages given some predefined guidelines.",
-        "url": "https://github.com/EMPChief",
+        "url": "https://github.com/EMPChief/Python-PDF",
         "image": "3.png"
     },
     {
         "title": "PDF Invoices",
         "description": "A script that reads invoice records from Excel files and automatically generates PDF invoices.",
-        "url": "https://github.com/EMPChief",
+        "url": "https://github.com/EMPChief/Python-PDF",
         "image": "4.png"
     },
     {
