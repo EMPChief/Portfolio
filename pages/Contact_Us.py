@@ -3,7 +3,7 @@ from utility import ContactForm
 
 st.set_page_config(
     page_title="Bjørn-Magne Portfolio",
-    page_icon="favicon.ico",
+    page_icon="./favicon.ico",
 )
 
 
