@@ -8,6 +8,15 @@ st.set_page_config(
 
 
 def main():
+    """
+    This function displays a contact form and sends an email when the submit button is clicked.
+
+    Parameters:
+        None
+
+    Returns:
+        None
+    """
     st.header("Contact us!")
 
     name = st.text_input("Name")

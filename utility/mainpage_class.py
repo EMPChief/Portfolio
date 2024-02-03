@@ -2,6 +2,19 @@ import streamlit as st
 import json
 
 
+"""PortfolioApp class to create a Streamlit app for displaying a portfolio.
+
+Provides methods to:
+
+- Load project data from a JSON file
+- Set Streamlit page config
+- Display welcome message
+- Display about me/profile section
+- Display project list with title, image, description and link  
+- Run the app
+"""
+
+
 class PortfolioApp:
     def __init__(self):
         self.projects = self.load_projects("db.json")

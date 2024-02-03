@@ -3,6 +3,15 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 
+"""
+ContactForm class for sending contact form emails.
+
+Initializes with SMTP server details and provides a send_email() 
+method to send the contact form contents to the configured 
+email address.
+"""
+
+
 class ContactForm:
     def __init__(self):
         self.smtp_server = "smtp.hostinger.com"
