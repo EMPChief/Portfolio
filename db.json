@@ -44,7 +44,7 @@
     {
         "title": "Tour Scraper",
         "description": "A program that checks a music band's website and sends an email when there are new tours.",
-        "url": "https://github.com/EMPChief",
+        "url": "https://github.com/EMPChief/Python-Scraping",
         "image": "8.png"
     },
     {
@@ -62,7 +62,7 @@
     {
         "title": "Webcam Motion Detector",
         "description": "A program that monitors the computer webcam and sends an email when a new object enters the view.",
-        "url": "https://github.com/EMPChief",
+        "url": "https://github.com/EMPChief/Python-Camera-Detect",
         "image": "11.png"
     },
     {
@@ -92,7 +92,7 @@
     {
         "title": "Visualizing Weather Forecast",
         "description": "A data web app that visualizes the weather forecast for the next five days of any city.",
-        "url": "https://github.com/EMPChief",
+        "url": "https://github.com/EMPChief/Python-Weather",
         "image": "16.png"
     },
     {
